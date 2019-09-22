@@ -1,0 +1,29 @@
+{
+  "name": "monzo-spending-summary",
+  "version": "0.1.0",
+  "description": "Creates a summary of all spending by year-month and category.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rs-saunders/monzo-spending-summary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rs-saunders/monzo-spending-summary/issues"
+  },
+  "homepage": "https://github.com/rs-saunders/monzo-spending-summary#readme",
+  "keywords": [
+    "monzo",
+    "mondo"
+  ],
+  "author": "Richard Saunders <richard@sdevsolutions.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "date-fns": "^2.2.1",
+    "dotenv": "^8.1.0"
+  }
+}
