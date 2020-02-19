@@ -30,7 +30,7 @@ monzo.getTransactions()
         }
 
         console.log(`Writing file ${SUMMARY_FILE}...`);
-        return writeFile(SUMMARY_FILE, JSON.stringify(categories));
+        return writeFile(SUMMARY_FILE, JSON.stringify(categories, null, 2));
     })
     .catch(error => {
         console.log(error);
