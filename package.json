@@ -1,11 +1,12 @@
 {
   "name": "monzo-spending-summary",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Creates a summary of all spending by year-month and category.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,9 @@
   "dependencies": {
     "axios": "^0.19.0",
     "date-fns": "^2.2.1",
-    "dotenv": "^8.1.0"
+    "dotenv": "^8.1.0",
+    "next": "9.2.2",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
   }
 }
