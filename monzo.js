@@ -43,7 +43,7 @@ module.exports = {
         } 
         console.log('Fetching transactons from api...');
         const { data: { transactions } } = await get(`/transactions?expand[]=merchant&account_id=${process.env.MONZO_ACCOUNT_ID}`);
-        console.log(`Writing file ${SUMMARY_FILE}...`);
+        console.log(`Writing file ${TRANSACTIONS_FILE}...`);
         await writeFile(TRANSACTIONS_FILE, JSON.stringify(transactions));
         return transactions;
     }
